@@ -1,43 +1,37 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-    int numero;
+    int a, b, c;
 
-    printf("Inserir numero:\n ");
-    scanf("%d", &numero);
+    printf("Indique 3 comprimentos:\n");
+    scanf("%d%d%d", &a, &b, &c);
 
-
-    if (numero > 0 && (numero % 2) == 0)
+    if (abs (a  - b) < c && c < (a + b))
     {
-        printf("numero POSITIVO e PAR\n");
-    }
-    else
-    {
-        if(numero > 0 && (numero % 2) == 1)
+        printf("Os comprimentos formam um triangulo\n");
+        if (a == b && b ==c )
         {
-            printf("numero POSITIVO e IMPAR\n");
+            printf("\n\tE um triangulo equilatero\n");
         }
         else
         {
-            printf("numero NULL");
+            if(a != b && b!= c && a != c)
+            {
+             printf("\n\tE um triangulo escaleno\n");
+            }
+            else
+            {
+                 printf("\n\tE um triangulo isosceles\n");
+            }
         }
     }
 
-
-    if (numero < 0 && (numero % 2)== 0)
-    {
-        printf("numero NEGATIVO e PAR\n");
-
-    }
     else
     {
-        if(numero < 0 && (numero % 2) == 1)
-        {
-            printf("numero NEGATIVO e IMPAR\n");
-        }
+        printf("Os comprimentos nao formam um triangulo");
     }
-
 
 
     return 0;
