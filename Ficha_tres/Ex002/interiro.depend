@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666178137 source:c:\users\2200072\documents\ficha3\1\interiro\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
