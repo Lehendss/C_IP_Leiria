@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1666783221 source:c:\users\2200072\documents\ficha4\funcctions\main.c
+1666788624 source:c:\users\2200072\documents\ficha4\funcctions\main.c
 	<stdio.h>
 	<stdlib.h>
+	<ctype.h>
 
