@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1668600349 source:c:\users\2200072\documents\ficha5\vetores\vetores\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoesGenericas.h"
+
+1668600735 source:c:\users\2200072\documents\ficha5\vetores\vetores\funcoesgenericas.c
+	<stdio.h>
+	"funcoesGenericas.h"
+
+1668599291 c:\users\2200072\documents\ficha5\vetores\vetores\funcoesgenericas.h
+
