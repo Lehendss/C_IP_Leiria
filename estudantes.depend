@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1668606289 source:c:\users\2200072\documents\ficha6\ex001\estudantes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gestaoAlunos.h"
+
+1668605914 c:\users\2200072\documents\ficha6\ex001\estudantes\gestaoalunos.h
+
+1668607147 source:c:\users\2200072\documents\ficha6\ex001\estudantes\funcoesgenericas.c
+	<stdio.h>
+	<string.h>
+	"funcoesGenericas.h"
+
+1668607027 c:\users\2200072\documents\ficha6\ex001\estudantes\funcoesgenericas.h
+
+1668607097 source:c:\users\2200072\documents\ficha6\ex001\estudantes\gestaoalunos.c
+	<stdio.h>
+	"funcoesGenericas.h"
+	"gestaoAlunos.h"
+
