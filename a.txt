@@ -1,0 +1,27 @@
+float contas(int quantAvailados, tipoEstudante vetorEstudantes[], int quantEstudantes)
+{
+    int i, quantPositivas = 0;
+    float perPositivas = 0;
+
+    *quantAvailados = 0;
+
+    for(i = 0; i < quantEstudantes; i++)
+    {
+        if(vetorEstudantes[i].notaFinal != 1)
+        {
+            (*quantAvailados)++;
+
+            if(vetorEstudantes[i].notaFinal >= NOTA_POSITIVA)
+            {
+                quantPositivas++;
+            }
+        }
+    }
+    if(quantAvailados > 0)
+    {
+        perPositivas = (quantPositivas * 100.0) / *quantAvailados;
+    }
+
+    return perPositivas();
+
+}
