@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1669283222 source:c:\users\sidol\documents\pl4\ficha06\funcoesgenericas.c
+	<stdio.h>
+	<string.h>
+	"funcoesGenericas.h"
+
+1669283222 c:\users\sidol\documents\pl4\ficha06\funcoesgenericas.h
+
+1669283524 source:c:\users\sidol\documents\pl4\ficha06\gestaoalunos.c
+	<stdio.h>
+	"funcoesGenericas.h"
+	"gestaoAlunos.h"
+
+1669283524 c:\users\sidol\documents\pl4\ficha06\gestaoalunos.h
+	"funcoesGenericas.h"
+
+1669283559 source:c:\users\sidol\documents\pl4\ficha06\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"gestaoAlunos.h"
+	"funcoesGenericas.h"
+
+1670411993 source:c:\users\2200072\downloads\ficha06 (2)\ficha06\funcoesgenericas.c
+	<stdio.h>
+	<string.h>
+	"funcoesGenericas.h"
+
+1670411993 c:\users\2200072\downloads\ficha06 (2)\ficha06\funcoesgenericas.h
+
+1670417403 source:c:\users\2200072\downloads\ficha06 (2)\ficha06\gestaoalunos.c
+	<stdio.h>
+	"funcoesGenericas.h"
+	"gestaoAlunos.h"
+
+1670411993 c:\users\2200072\downloads\ficha06 (2)\ficha06\gestaoalunos.h
+	"funcoesGenericas.h"
+
+1670418892 source:c:\users\2200072\downloads\ficha06 (2)\ficha06\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"gestaoAlunos.h"
+	"gestaoReservas.h"
+	"funcoesGenericas.h"
+
+1670418510 c:\users\2200072\downloads\ficha06 (2)\ficha06\gestaoreservas.h
+	"funcoesGenericas.h"
+	"gestaoAlunos.h"
+
+1670418645 source:c:\users\2200072\downloads\ficha06 (2)\ficha06\gestaoreservas.c
+	"gestaoReservas.h"
+	<stdio.h>
+	<string.h>
+
